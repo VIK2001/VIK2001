@@ -186,7 +186,7 @@ else:
     if(now>Second and now<Secondend):
             rava=291
     elif(now>Third and now<Thirdend):
-            rava=351
+            rava=320
     elif(now>Final and now<Finalend):
             rava=411
     system(banner)
