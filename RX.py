@@ -60,6 +60,17 @@ def hero():
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
+    def getSum(n):
+            sum=0
+            for digit in str(n):
+                sum += int(digit)
+            return sum
+    def lawde_time_pe_khel(n):
+        check=0
+        for digit in (n):
+            if(int(digit)==0):
+                check=check+1
+        return check
 
     clear()
     y=1
@@ -80,11 +91,7 @@ def hero():
         chalo1()
         print("\n---------Successfully got the colour -------------")
         print('\n')
-        def getSum(n):
-            sum=0
-            for digit in str(n):
-                sum += int(digit)
-            return sum
+       
         if i in thisway:
             m=getSum(current)
             n=int(current)%10
@@ -122,5 +129,5 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n "
+            sys.exit(" \n \n \n ")
             #print(numbers)
