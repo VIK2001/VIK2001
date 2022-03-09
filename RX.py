@@ -211,6 +211,7 @@ else:
         print(f"{red}*---------*----------*-------------*----------*")
         print("payhere--- UPI : ")
         print(f"{yellow}UPI : 9606807597@paytm")
+        print("Bitcoin : bc1q4z5kt2qyzc9eaxqrpdhgzrhlpz58ptraapsr5g ")
         print("If you have already paid to above UPI")
         print(f"{neon}Enter Your Activation Code Or Upi Reference for Opening Hack")
         bhai=input(": ")
